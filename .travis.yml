@@ -13,7 +13,6 @@ jobs:
         - npm run prettier
     - stage: release
       script:
-        - npm run build
         - npm run semantic-release
 stages:
   - test
