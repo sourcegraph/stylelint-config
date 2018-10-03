@@ -22,7 +22,6 @@
       "height": ["rem", "%", "vh"],
       "width": ["rem", "%", "vw"]
     },
-    "indentation": 4,
     "max-empty-lines": 1,
     "no-duplicate-selectors": true,
     "scss/dollar-variable-pattern": "^[a-z\\d](?:[a-z\\d]|-(?=[a-z\\d]))*$",
