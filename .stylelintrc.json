@@ -4,7 +4,8 @@
   "rules": {
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": [true],
-    "color-named": "always-where-possible",
+    "color-named": "never",
+    "color-hex-length": "long",
     "declaration-block-no-duplicate-properties": [
       true,
       {
