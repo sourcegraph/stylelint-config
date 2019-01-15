@@ -13,7 +13,8 @@
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "semantic-release": "semantic-release",
-    "prettier": "prettier '**/{*.{js?(on),ts?(x),scss},.*.js?(on)}' --write --list-different"
+    "prettier": "prettier '**/*.{js?(on),ts?(x),scss,yml}' --write --list-different",
+    "prettier-check": "npm run prettier -- --write=false"
   },
   "commitlint": {
     "extends": [
@@ -27,7 +28,7 @@
     "@sourcegraph/tsconfig": "^3.0.0",
     "@sourcegraph/tslint-config": "^12.0.0",
     "husky": "^0.14.3",
-    "prettier": "^1.14.2",
+    "prettier": "^1.15.3",
     "semantic-release": "^15.9.8",
     "tslint": "^5.11.0",
     "typescript": "^3.0.1"
