@@ -23,14 +23,14 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
     "@commitlint/config-conventional": "^8.3.4",
-    "@sourcegraph/prettierrc": "^3.0.1",
+    "@sourcegraph/prettierrc": "^3.0.2",
     "husky": "^3.1.0",
     "prettier": "^1.19.1",
     "semantic-release": "^15.13.31",
     "stylelint": "^12.0.1"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-scss": "^3.13.0"
   },
