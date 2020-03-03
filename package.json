@@ -24,7 +24,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@sourcegraph/prettierrc": "^3.0.2",
-    "husky": "^3.1.0",
+    "husky": "^4.2.3",
     "prettier": "^1.19.1",
     "semantic-release": "^15.13.31",
     "stylelint": "^13.2.0"
