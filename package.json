@@ -27,7 +27,7 @@
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "semantic-release": "^17.0.8",
-    "stylelint": "^13.6.0"
+    "stylelint": "^13.6.1"
   },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.1",
