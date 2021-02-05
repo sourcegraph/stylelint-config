@@ -20,7 +20,7 @@
       "/^box-shadow": ["px"],
       "/^margin/": ["rem"],
       "/^padding/": ["rem"],
-      "font-size": ["px", "em"],
+      "font-size": ["rem", "em"],
       "height": ["rem", "%", "vh"],
       "width": ["rem", "%", "vw"]
     },
