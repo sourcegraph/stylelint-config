@@ -1,4 +1,4 @@
 {
   "extends": ["github>sourcegraph/renovate-config"],
-  "reviewers": ["team:web"]
+  "semanticCommits": true
 }
