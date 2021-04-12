@@ -46,6 +46,12 @@
     "string-quotes": "single",
     "value-no-vendor-prefix": true,
     "font-family-no-missing-generic-family-keyword": null,
-    "no-descending-specificity": null
+    "no-descending-specificity": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global"]
+      }
+    ]
   }
 }
