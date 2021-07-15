@@ -23,7 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@sourcegraph/eslint-config": "^0.25.0",
+    "@sourcegraph/eslint-config": "^0.25.1",
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
     "eslint": "^7.30.0",
