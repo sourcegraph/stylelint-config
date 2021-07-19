@@ -6366,10 +6366,10 @@ stylelint-config-standard@^20.0.0:
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-scss@^3.17.2:
-  version "3.17.2"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.17.2.tgz#4d849a153f9241834396f5880db2c3c964def4e3"
-  integrity sha512-e0dmxqsofy/HZj4urcGSJw4S6yHDJxiQdT20/1ciCsd5lomisa7YM4+Qtt1EG4hsqEG1dbEeF855tec1UyqcSA==
+stylelint-scss@^3.20.1:
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.20.1.tgz#88f175d9cfe1c81a72858bd0d3550cf61530e212"
+  integrity sha512-OTd55O1TTAC5nGKkVmUDLpz53LlK39R3MImv1CfuvsK7/qugktqiZAeQLuuC4UBhzxCnsc7fp9u/gfRZwFAIkA==
   dependencies:
     lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
