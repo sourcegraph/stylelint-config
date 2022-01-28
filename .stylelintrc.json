@@ -56,7 +56,7 @@
     "scss/comment-no-empty": null,
     "scss/double-slash-comment-empty-line-before": null,
     "scss/at-extend-no-missing-placeholder": null,
-    "no-invalid-position-at-import-rule":null,
+    "no-invalid-position-at-import-rule": null,
     "rule-empty-line-before": null,
     "selector-no-vendor-prefix": null,
     "alpha-value-notation": null,
