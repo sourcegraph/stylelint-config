@@ -1,12 +1,11 @@
 {
-  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
-  "plugins": ["stylelint-scss"],
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier"],
   "rules": {
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": [true],
     "color-named": "never",
     "color-hex-length": "long",
-    "function-blacklist": ["rgb", "hsl"],
+    "function-disallowed-list": ["rgb", "hsl"],
     "declaration-block-no-duplicate-properties": [
       true,
       {
@@ -14,7 +13,7 @@
       }
     ],
     "declaration-empty-line-before": null,
-    "declaration-property-unit-whitelist": {
+    "declaration-property-unit-allowed-list": {
       "/^border(?!.*-radius$)/": ["px", "%"],
       "/^border-radius/": ["px", "rem", "%"],
       "/^box-shadow": ["px"],
@@ -52,6 +51,24 @@
       {
         "ignorePseudoClasses": ["global"]
       }
-    ]
+    ],
+    "scss/at-import-partial-extension": null,
+    "scss/comment-no-empty": null,
+    "scss/double-slash-comment-empty-line-before": null,
+    "scss/at-extend-no-missing-placeholder": null,
+    "no-invalid-position-at-import-rule": null,
+    "rule-empty-line-before": null,
+    "selector-no-vendor-prefix": null,
+    "alpha-value-notation": null,
+    "color-function-notation": null,
+    "scss/no-global-function-names": null,
+    "value-keyword-case": null,
+    "shorthand-property-no-redundant-values": null,
+    "scss/operator-no-unspaced": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "keyframes-name-pattern": null,
+    "number-max-precision": null,
+    "scss/dollar-variable-empty-line-before": null,
+    "property-no-vendor-prefix": null
   }
 }
