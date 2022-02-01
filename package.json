@@ -21,7 +21,7 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.0.1",
+    "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "@sourcegraph/eslint-config": "^0.26.0",
     "@sourcegraph/prettierrc": "^3.0.3",
