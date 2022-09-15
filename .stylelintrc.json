@@ -17,11 +17,11 @@
       "/^border(?!.*-radius$)/": ["px", "%"],
       "/^border-radius/": ["px", "rem", "%"],
       "/^box-shadow": ["px"],
-      "/^margin/": ["rem"],
-      "/^padding/": ["rem"],
+      "/^margin/": ["rem", "px"],
+      "/^padding/": ["rem", "px"],
       "font-size": ["rem", "em"],
-      "height": ["rem", "%", "vh"],
-      "width": ["rem", "%", "vw"]
+      "height": ["rem", "%", "vh", "px"],
+      "width": ["rem", "%", "vw", "px"]
     },
     "max-empty-lines": 1,
     "no-duplicate-selectors": true,
