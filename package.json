@@ -28,7 +28,7 @@
     "@sourcegraph/tsconfig": "^4.0.1",
     "eslint": "^8.57.1",
     "husky": "^5.0.9",
-    "prettier": "^2.5.1",
+    "prettier": "^3.3.3",
     "semantic-release": "^17.3.9",
     "stylelint": "^15.11.0",
     "typescript": "^4.5.5"
