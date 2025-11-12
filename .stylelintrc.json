@@ -34,13 +34,6 @@
         "resolveNestedSelectors": true
       }
     ],
-    "selector-max-compound-selectors": [
-      1,
-      {
-        "message": "Descendent selectors break encapsulation and are bad for performance. Please try using BEM class names instead and nesting/combining them with &",
-        "severity": "warning"
-      }
-    ],
     "selector-max-id": [0],
     "string-quotes": "single",
     "value-no-vendor-prefix": true,
